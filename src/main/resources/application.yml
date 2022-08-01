@@ -1,0 +1,17 @@
+cloud: 
+    aws:
+        region:
+            static: sa-east-1
+        stack:
+            auto: false
+        credentials:
+            access-key: AKIA3HLVS6HTG3MQLRGU
+            secret-key: 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
+logging:
+  level:
+      com:
+          amazonaws:
+              internal:
+                  InstanceMedadataServiceResourceFetcher: error
+                  util:
+                      EC2MetadataUtils: error
